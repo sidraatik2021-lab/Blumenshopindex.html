@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e2d4d4;
+}
+header {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.BOX{
+    background: #ffe4ec;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+.BOX-a:hover {
+    text-decoration: underline;
+}
+.section {
+    padding: 40px 40px;
+    max-width: 900px;
+    margin: auto;
+
+}
+.section h3 {
+    color: #b30050;
+    text-align: center;
+}
+
+section h4 {
+    color: #752a2a;
+    text-align: neno;
+
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 5px #ccc;
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.card img {
+    width: 200px;
+    border-radius: 10px;
+}
