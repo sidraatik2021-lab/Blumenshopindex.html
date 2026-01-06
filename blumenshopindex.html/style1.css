@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e2d4d4;
+}
+header h1{  text-align: center;
+color:  #b30050;
+}
+nav {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.BOX{
+    background: #e2d4d4;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+.BOX-a:hover {
+    text-decoration: underline;
+}
+.section {
+    padding: 40px 40px;
+    max-width: 900px;
+    margin: auto;
+}
+.section h3 {
+    color: #b30050;
+    text-align: center;
+}
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 5px white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-wrap: wrap;
+
+}
+.card img {
+    width: 200px;
+    border-radius: 10px;
+}
+.buy {
+  background: #d17a9b;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.buy:hover {
+  background: #b96482;
+}
